@@ -1,0 +1,6 @@
+int incrementAge() {
+  static int age = 0;
+  age++;
+  return age;
+}'
+printf("")'
